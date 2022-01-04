@@ -1,0 +1,153 @@
+/* Global CSS */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-img{
+	width: 350px;
+}
+
+.nav-link{
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 17px;
+}
+/*order-food*/
+.order-food{
+	margin-top: 170px;
+}
+.order-food h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.order-food p{
+	font-size: 20px;
+	margin: 25px 0px 60px 0px;	
+}
+.order-link{
+	background-image: linear-gradient(to right, orange, tomato);
+    text-decoration: none;
+    padding: 20px 32px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+/* end order-food*/
+/*about*/
+.about-section {
+	background-color: #FEF3EC;
+  
+}
+.sub-about{
+	margin-top: 40px;
+}
+.sub-about img{
+	width:285px;
+	margin-left: 38px;
+}
+.sub-about2 h1{
+	color: #808080;
+	margin: 120px 0px 30px 0px;
+	font-size: 60px;
+}
+.sub-about2 p{
+	color: #808080;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+/*end about*/
+/* start recipies*/
+.our-recipies{
+	text-align: center;
+}
+.our-recipies h2{
+	color: #808080;
+	font-weight: bold
+}
+.recipe-description{
+	text-align: center;
+	color: #808080;
+	padding: 0 292px;
+	margin-bottom: 40px;
+}
+.inner{
+	overflow: hidden;
+
+}
+.inner img{
+	transition: all 1.5s ease;
+	padding: 20px;
+}
+.inner:hover img{
+	transform: scale(1.5);
+}
+.card{
+	box-shadow: 0px 0px 15px gray;
+	height: 466px;
+	margin-bottom: 80px;
+	margin-left: 60px;
+}
+/*end recipies*/
+
+/*start BLOG*/
+.our-blog{
+	text-align: center;
+	background-color: #FDEAEC;
+}
+.our-blog h2{
+	color: #808080;
+	font-weight: bold
+}
+.blog-description{
+	text-align: center;
+	color: #808080;
+	padding: 0 292px;
+	margin-bottom: 40px;
+}
+.our-blog .card-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+/*end blog*/
+
+/*start-form*/
+	
+	.form-title{
+		color: #808080;
+		margin-top: 100px;
+		margin-bottom: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.form-box{
+		width: 50%;
+		margin-left: 220px;
+	}
+	.Subject{
+		height: 133px;
+	}
+
+/*end-form*/
+
+/*start footer*/
+footer{
+	background-color: #000000;
+	text-align: center;
+	padding: 20px 0;
+}
+.color-text{
+	color: #FFA500;
+}
+footer p{
+	color: #fff;
+}
+	
+	
